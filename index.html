@@ -1,49 +1,195 @@
 <html>
-  <head>
-    
-  </head>
-  <body>
-    <style>
-      body { background-color: #2a2a2a; }
-    </style>
-    
+
+<head>
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <title>Gameporium</title>
+  <meta name="title" content="Gameporium" />
+  <meta name="description" content="The Gameporium Website!" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="512x512" href="res/site/favicon-512x512.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="gameporium.png" style="height: 10%; width: 10%; border-radius: 22%; margin-bottom: 1.5%;">
+    </div>
+
+    <div class="table">
     <table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Payment Method</th>
-      <th>SellApp</th>
-      <th>Eldorado</th>
-      <th>Discord</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Bitcoin</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>Ethereum</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>Litecoin</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>Polygon</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>USDC ERC20 (ETH)</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>SHIB ERC20 (ETH)</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>USDT BEP20 (BNB)</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>Monero</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>BNB</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>Tron</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>USDT ERC20 (ETH)</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>UNI ERC20 (ETH)</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>DAI ERC20 (ETH)</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>USDC BEP20 (BNB)</td><td>✅</td><td>✅</td><td>✅</td></tr>
-    <tr><td>CashApp</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>PayPal</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>Credit / Debit Card</td><td>✅</td><td>✅</td><td>❌</td></tr>
-    <tr><td>Klarna</td><td>✅</td><td>❌</td><td>❌</td></tr>
-    <tr><td>Google Pay</td><td>✅</td><td>✅</td><td>❌</td></tr>
-    <tr><td>Apple Pay</td><td>✅</td><td>❌</td><td>❌</td></tr>
-    <tr><td>Robux</td><td>❌</td><td>❌</td><td>✅</td></tr>
-    <tr><td>MM2 Items</td><td>❌</td><td>❌</td><td>✅</td></tr>
-    <tr><td>Venmo</td><td>✅</td><td>❌</td><td>✅</td></tr>
-    <tr><td>Rewarble</td><td>❌</td><td>❌</td><td>✅</td></tr>
-    <tr><td>Gift Cards</td><td>❌</td><td>❌</td><td>✅</td></tr>
-    <tr><td>Amazon Pay</td><td>✅</td><td>❌</td><td>❌</td></tr>
-  </tbody>
-</table>
-  </body>
+        <thead>
+            <tr>
+                <th>Payment Method</th>
+                <th>SellApp</th>
+                <th>Eldorado</th>
+                <th>Discord</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bitcoin</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Ethereum</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Litecoin</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Polygon</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>USDC ERC20 (ETH)</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>SHIB ERC20 (ETH)</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>USDT BEP20 (BNB)</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Monero</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>BNB</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Tron</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>USDT ERC20 (ETH)</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>UNI ERC20 (ETH)</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>DAI ERC20 (ETH)</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>USDC BEP20 (BNB)</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>CashApp</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>PayPal</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Credit / Debit Card</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+            </tr>
+            <tr>
+                <td>Klarna</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+            </tr>
+            <tr>
+                <td>Google Pay</td>
+                <td class="yes">✔</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+            </tr>
+            <tr>
+                <td>Apple Pay</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+            </tr>
+            <tr>
+                <td>Robux</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>MM2 Items</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Venmo</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Rewarble</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Gift Cards</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+                <td class="yes">✔</td>
+            </tr>
+            <tr>
+                <td>Amazon Pay</td>
+                <td class="yes">✔</td>
+                <td class="no">✖</td>
+                <td class="no">✖</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+
 </html>

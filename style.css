@@ -44,14 +44,14 @@ td:not(:first-child) {
     width: 75px;
 }
 
-.yes {
+.yees {
     color: #e5ab38;
     -webkit-text-stroke: 0.0001px rgba(255, 255, 255, 0.25);
     font-size: 18px;
     font-weight: 600;
 }
 
-.no {
+.neo {
     color: #1f07e0;
     -webkit-text-stroke: 0.0001px rgba(255, 255, 255, 0.25);
     font-size: 18px;

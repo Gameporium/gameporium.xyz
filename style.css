@@ -36,7 +36,7 @@ td {
 th:first-child,
 td:first-child {
     width: 75px;
-    text-align: left;
+    text-align: center;
 }
 
 th:not(:first-child),
